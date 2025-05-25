@@ -3,18 +3,18 @@
 <?php 
 
 // string concatenation
-$f_name = "John";
-$l_name = "Doe";
+$f_name = "sanket";
+$l_name = "devganiya";
 $full_name = $f_name . " " . $l_name;
 echo $full_name; 
 
 // substringextraction
-$full_name = "John Doe";
-$f_name = substr($full_name, 0, 4);
+$full_name = "sanket devganiya";
+$f_name = substr($full_name, 0, 6);
 echo $f_name; 
 
 // string length determination
-$full_name = "John Doe";
+$full_name = "sanket devganiya";
 $len = strlen($full_name);
 echo $len; 
 
